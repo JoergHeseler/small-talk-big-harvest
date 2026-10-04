@@ -18,6 +18,9 @@
 | Photos | Field-condition datasets for the chosen crop (PlantDoc etc.); PlantVillage only with gap noted | yes |
 | Farmers and reports | **Synthetic, labelled as such** | — |
 
+## Data the app collects
+Phone number (stored protected), location rounded to ~1 km or village name, crops, field size, consent, call cases. Retention: 12 months.
+
 ## What our data does not cover (scored — state it openly)
 - Dialect speech: small test set, few speakers.
 - Studio photo datasets perform worse on real field photos.

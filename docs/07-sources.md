@@ -10,6 +10,8 @@
 - GiveWell on PxD: https://www.givewell.org/node/3479
 - India call rates: https://edesy.in/ai-voice-assistant/compare/twilio-pricing ; https://prospeo.io/s/knowlarity-pricing-reviews-pros-and-cons
 - Exotel billing pulse: https://www.cloudtalk.io/blog/exotel-pricing/
+- UP electricity tariff FY 2026-27: https://powerpeakdigest.com/uperc-retains-fy27-power-tariffs-raises-subsidy-and-expands-ev-benefits/
+- UP minimum wage 2026: https://wageindicator.org/en-in/ai/work-in-india/minimum-wage/21888-uttar-pradesh/22085-shops/
 - Africa's Talking Kenya pricing (earlier comparison): https://help.africastalking.com/en/articles/6049200-voice-pricing-kenya
 - Open-source IVR Benin (atingi): https://www.bmz-digital.global/en/revolutionizing-digital-learning-for-farmers-and-smes-atingi4ag-project-in-benin-launches-open-source-ivr-solution/
 - CGIAR on IVR business models: https://repository.cimmyt.org/signposting/describedby/bf8cf2dc-928f-441d-9ffc-17b3550c7088

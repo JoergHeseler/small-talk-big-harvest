@@ -10,6 +10,8 @@
 - Speaks her local language; the national language only when needed.
 - Agriculture problem: yields falling for unknown reasons; extension officer visits about twice a year; no independent price reference at harvest.
 
+Our adaptation: Noor lives in western UP near Delhi, speaks Hindi (or a local dialect) and may not read or write.
+
 ## Hard rules
 1. Runs on a device the user already has.
 2. Core feature works offline.

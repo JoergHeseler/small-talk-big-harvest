@@ -1,12 +1,9 @@
 # 04 · Operations (estimates for one site, 1,000 farmers)
 
-## Call model (proposed): missed call + call-back
-- Farmer rings once and hangs up → free for her.
-- Box calls back from a fixed number, in order of arrival.
-- Works with plain SIMs in the GSM gateway (toll-free needs a cloud provider).
-- No busy signal: busy periods become a call-back list.
-- Downsides: short delay; farmer must answer an incoming call; outgoing minutes cost the operator.
-- Check TRAI rules for automated outbound calls before a real launch.
+## Call model — open decision
+- **Proposed: missed call + call-back.** Farmer rings once (free), box calls back from a fixed number in order of arrival. Works with plain SIMs; no busy signal.
+- **Current app requirement:** "Call now" opens a normal paid call (`tel:` link). If missed call is chosen, change the app text to "Give a missed call, we will call you back".
+- Check TRAI rules and operator fair-use before automated calling on SIMs; licensed cloud provider as fallback.
 
 ## Capacity and waiting
 | Question | Estimate | Basis |
@@ -22,4 +19,15 @@
 | Max queue | no hard limit; ~5–10 at peaks | call-back list |
 
 ## The box
-Mini PC (laptop for the demo) + 4-line GSM gateway + battery backup, at an FPO or Krishi Vigyan Kendra. Runs speech recognition, LLM, classifier, clips, database, dashboard. Electricity ~300–550 kWh/year (30–65 W, 24/7). Hardware replacement every 3–4 years. A Raspberry Pi is likely too slow for ASR + LLM.
+Mini PC (laptop for the demo) + 4-line GSM gateway + battery backup, at an FPO or Krishi Vigyan Kendra. Runs speech recognition, LLM, classifier, clips, database, dashboard. Electricity ~300–550 kWh/year (30–65 W, 24/7) ≈ ₹2,300–4,200/year at UP rates. Hardware replacement every 3–4 years. A Raspberry Pi is likely too slow for ASR + LLM.
+
+## The app backend
+A small cloud server hosts the registration API (≈ ₹12,000–24,000/year). In offline areas the app keeps data on the phone and syncs when a signal appears; the core call works regardless.
+
+## Who maintains what
+| Task | Who |
+|---|---|
+| Restarts, SIM balance, loading new clips | Digital champion (part-time) |
+| Seasonal advice content | Agricultural university / ICAR experts |
+| Officer call-backs | State extension service |
+| Server and app updates | State IT / implementing partner |
