@@ -16,7 +16,8 @@ A farmer gives a missed call from her basic phone, describes the problem on her 
 | Less-supported test language | Proposed | Local dialect (e.g. Khari Boli or Braj) |
 | Users | Decided | Many farmers cannot read or write → voice-only core; app registration with family help |
 | Payer | Decided | Government (state + central) |
-| Cost | Estimated | ₹130–200 per farmer per year running; ₹1.2–2.1 lakh setup per site |
+| Cost | Estimated (full cost) | ₹140–235 per farmer per year; ₹1.0–1.8 lakh setup per site |
+| Telephony | Decided after review | Registered business number via licensed provider (no consumer SIMs) |
 | Registration app | Decided | Mobile-first PWA, offline-capable, existing API (see `docs/08-app.md`) |
 | Crop | **Open — conflict** | App says coffee; coffee is not grown in western UP (proposed: maize, or rename app "Kisan Helpline") |
 | Call model | **Open** | App requirements use a normal call (`tel:`); proposed: missed call + call-back |

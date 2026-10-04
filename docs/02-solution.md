@@ -29,7 +29,7 @@
 ## Architecture
 | Component | Technology |
 |---|---|
-| Phone channel | GSM gateway (4 lines) with SIMs; licensed cloud provider (e.g. Exotel) as fallback; simulated call UI for the demo |
+| Phone channel | Registered business number via licensed provider (e.g. Exotel), 4 channels; simulated call UI for the demo |
 | Speech recognition | Whisper-small or Meta MMS (Hindi); AI4Bharat models as alternative |
 | Symptom extraction | Small open LLM (e.g. Qwen2.5-1.5B quantized, llama.cpp/Ollama; KisanSLM to check), output forced into fixed JSON |
 | Context data | Location from registry, weather (NASA POWER/CHIRPS, cached), nearby confirmed reports, cited symptom table |
@@ -41,7 +41,7 @@
 | Registration app | Hindi-first PWA (can be built with Lovable), offline storage, read-aloud |
 | Officer dashboard | Case queue, map, alerts |
 
-**Offline mode:** the whole stack runs on a mini PC ("the box") at a farmer producer organisation or Krishi Vigyan Kendra, with a GSM gateway. The farmer's phone never needs data for the core call.
+**Offline mode:** the AI stack runs locally on a mini PC ("the box") at a farmer producer organisation or Krishi Vigyan Kendra. The farmer's phone never needs data; the site needs a connection to the telephony provider.
 
 ## Why AI (and not SMS, a spreadsheet or a search)
 - Understands free spoken descriptions in Hindi/dialect (NLP) — SMS and search require literacy.

@@ -15,7 +15,9 @@
 
 ## Content and evidence
 - [ ] Evidence figure in the problem statement
-- [ ] Local quotes for hardware, content and recordings (largest finance estimates)
+- [ ] Local quotes for hardware, content, recordings and the business telephony provider
+- [ ] Check TRAI registration requirements for automated call-backs
+- [ ] Update pitch/deck everywhere to full cost (₹140–235), not call-only cost
 - [ ] Licences of all datasets and of KisanSLM
 - [ ] Remove "SMS fallback" everywhere (users cannot read)
 
